@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'ayeshamahmd', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
@@ -11,38 +11,36 @@ const config = {
     },
   },
   social: {
-    linkedin: 'ariful-alam',
+    linkedin: 'ayesha-mahmood-25689a228',
     twitter: 'arif_szn',
     facebook: '',
     instagram: '',
     dribbble: '',
     behance: '',
     medium: 'arifszn',
-    dev: 'arifszn',
+    dev: 'ayeshamahmd',
     stackoverflow: '', // format: userid/username
-    website: 'https://arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
-  },
+    website: '',
+    phone: '647-569-9626',
+    email: 'mahmood.ayesha2004@gmail.com',
+  }
   resume: {
     fileUrl:
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'Technicanl:',
+    'C',
+    'C++',
+    'Python',
     'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'HTML/CSS',
+    'AutoCAD',
+    'Solidworks',
+    'Personal:',
+    'Solution Oriented',
+    'Goal Driven',
+    'Creative thinking',
   ],
   experiences: [
     {
@@ -70,40 +68,35 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Univeristy of Guelph',
+      degree: 'Bachelor of Engineering Co-op',
+      from: '2022',
+      to: '2027',
     },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
+    
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'Teddy Bear Wheel Chair ',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+        'The “Teddy Bear Wheel Chair” project consisted of design and creating an autonomous vehicle for a teddy bear. The main components included designing and building a circuit with an Arduino, writing code for vehicle based on testing stimulation and building a chassis within safety and accessible guidelines.',
       imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+      
     },
     {
-      title: 'Project Name',
+      title: 'Password Manager',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'The “Password Manager” project was based around creating a code system using the programming language Python to save and access passwords. As the information being entered and accessed was sensitive information, a Fernet encryption. The information entered into a text file and can only be accessed in the decrypted form using a master password. .',
+      imageUrl: '',
+      link: 'https://vscode.dev/github/ayeshamahmd/ayeshamahmd/blob/c888fb77a555215db4c5863505828a42ba97a402',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
