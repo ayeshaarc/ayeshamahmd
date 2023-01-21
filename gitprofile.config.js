@@ -17,7 +17,7 @@ const config = {
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
+    medium: '',
     dev: 'ayeshamahmd',
     stackoverflow: '', // format: userid/username
     website: '',
